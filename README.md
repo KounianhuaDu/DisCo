@@ -1,19 +1,19 @@
-# DisCo code repo
+# DisCo
 
-Code repo of work: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation (In submission for KDD 2024)
+This is the implementation of "DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation".
 
 ### Data
 
-The raw data of our three dataset is at:
+The raw data of the three dataset is available at:
 https://grouplens.org/datasets/movielens/1m/
 
 https://cseweb.ucsd.edu/jmcauley/datasets.html
 
 https://files.grouplens.org/datasets/mov
 
-To generate processed data, run ```python data_preprocess.py``` in ```dissem_preprocess``` folder.
+To generate the processed data, run ```python data_preprocess.py``` in ```dissem_preprocess``` folder.
 
-You can use arbitrary LMM model to generate semantic embedding, for ours, we use vicuna-13b
+You can use an arbitrary LLM model to generate semantic embedding, for ours, we use vicuna-13b:
 
 https://vicuna.lmsys.org/
 
@@ -28,3 +28,4 @@ run the ```run_base.py``` file in run folder, we provide three methods to choose
 ### Our method
 
 run the ```run_DisCo.py``` file in run folder, use ```--model=DisCo{model}``` to specify the backbone.
+
