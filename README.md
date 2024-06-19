@@ -5,6 +5,7 @@ This is the implementation of "DisCo: Towards Harmonious Disentanglement and Col
 ### Data
 
 The raw data of the three dataset is available at:
+
 https://grouplens.org/datasets/movielens/1m/
 
 https://cseweb.ucsd.edu/jmcauley/datasets.html
@@ -34,10 +35,16 @@ run the ```run_DisCo.py``` file in run folder, use ```--model=DisCo{model}``` to
 If you find this repo useful, please cite our paper.
 
 @misc{du2024disco,
+
       title={DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation}, 
+      
       author={Kounianhua Du and Jizheng Chen and Jianghao Lin and Yunjia Xi and Hangyu Wang and Xinyi Dai and Bo Chen and Ruiming Tang and Weinan Zhang},
+      
       year={2024},
+      
       eprint={2406.00011},
+      
       archivePrefix={arXiv},
+      
       primaryClass={cs.IR}
 }
