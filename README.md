@@ -1,6 +1,7 @@
 # DisCo
 
 This is the implementation of "DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation".
+
 <img width="669" height="328" alt="image" src="https://github.com/user-attachments/assets/24fa9718-ffac-4e8c-a119-2c2a5e6ecf7a" />
 
 
