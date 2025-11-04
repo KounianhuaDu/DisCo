@@ -36,7 +36,7 @@ run the ```run_DisCo.py``` file in run folder, use ```--model=DisCo{model}``` to
 ### Citation
 
 If you find this repo useful, please cite our paper.
-
+```
 @misc{du2024disco,
       title={DisCo: Towards Harmonious Disentanglement and Collaboration between Tabular and Semantic Space for Recommendation}, 
       author={Kounianhua Du and Jizheng Chen and Jianghao Lin and Yunjia Xi and Hangyu Wang and Xinyi Dai and Bo Chen and Ruiming Tang and Weinan Zhang},
@@ -45,3 +45,4 @@ If you find this repo useful, please cite our paper.
       archivePrefix={arXiv},
       primaryClass={cs.IR}
 }
+```
